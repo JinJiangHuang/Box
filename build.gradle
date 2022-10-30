@@ -3,6 +3,7 @@ buildscript {
     repositories {
         maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         maven { url 'https://jitpack.io' }
+        maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
         google()
         jcenter()
     }
@@ -18,6 +19,7 @@ allprojects {
     repositories {
         maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         maven { url 'https://jitpack.io' }
+        maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
         google()
         jcenter()
     }
